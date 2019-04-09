@@ -36,7 +36,7 @@ more useful imformation you can get here:
 #example of yolov3		
 	https://github.com/PINTO0309/OpenVINO-YoloV3/blob/master/openvino_tiny-yolov3_test.py
 
-some solutions of errors:
+#some solutions of errors:
 	https://software.intel.com/en-us/forums/computer-vision/topic/801113
 	https://software.intel.com/en-us/articles/transitioning-from-intel-movidius-neural-compute-sdk-to-openvino-toolkit#inpage-nav-13
 
