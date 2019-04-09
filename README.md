@@ -1,5 +1,6 @@
 #Openvino & NCS 
-we posit that you have installed tensorflow & Openvino and ran the demo of them correctly!
+
+we posit that you have installed tensorflow & Openvino and run the demo of them correctly!
 if not  there are some tips may help:
 
 tensotflow:
@@ -8,7 +9,7 @@ tensotflow:
 Openvino for linux:
 	https://docs.openvinotoolkit.org/latest/_docs_install_guides_installing_openvino_linux.html
 
-OPenvino for raspberry:
+Openvino for raspberry:
 	https://software.intel.com/en-us/articles/OpenVINO-Install-RaspberryPI
 	https://software.intel.com/en-us/neural-compute-stick/get-started
 	
