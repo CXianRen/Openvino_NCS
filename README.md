@@ -2,14 +2,17 @@
 we posit that you have installed tensorflow & Openvino and ran the demo of them correctly!
 if not  there are some tips may help:
 tensotflow:
-		http://www.tensorflow.org/install
+	http://www.tensorflow.org/install 
+
 Openvino for linux:
-		https://docs.openvinotoolkit.org/latest/_docs_install_guides_installing_openvino_linux.html
+	https://docs.openvinotoolkit.org/latest/_docs_install_guides_installing_openvino_linux.html
+
 OPenvino for raspberry:
-		https://software.intel.com/en-us/articles/OpenVINO-Install-RaspberryPI
-		https://software.intel.com/en-us/neural-compute-stick/get-started
+	https://software.intel.com/en-us/articles/OpenVINO-Install-RaspberryPI
+	https://software.intel.com/en-us/neural-compute-stick/get-started
+	
 more useful imformation you can get here:
-		https://docs.openvinotoolkit.org/latest/_inference_engine_ie_bridges_python_docs_api_overview.html
+	https://docs.openvinotoolkit.org/latest/_inference_engine_ie_bridges_python_docs_api_overview.html
 
 #just 4 steps 
 # 1、run: python3 mnist_train.py	
@@ -26,12 +29,12 @@ more useful imformation you can get here:
  
 # how to create a useful net by yourself,you can get something here:
 #is a example of the NCSDK1/2, and it work in Openvino! if you get more about this step, XD!
-		https://movidius.github.io/ncsdk/tf_compile_guidance.html
+	https://movidius.github.io/ncsdk/tf_compile_guidance.html
 
 # a sample of yolov3		
-		https://github.com/PINTO0309/OpenVINO-YoloV3/blob/master/openvino_tiny-yolov3_test.py
+	https://github.com/PINTO0309/OpenVINO-YoloV3/blob/master/openvino_tiny-yolov3_test.py
 
 some solutions of errors:
-		https://software.intel.com/en-us/forums/computer-vision/topic/801113
-		https://software.intel.com/en-us/articles/transitioning-from-intel-movidius-neural-compute-sdk-to-openvino-toolkit#inpage-nav-13
+	https://software.intel.com/en-us/forums/computer-vision/topic/801113
+	https://software.intel.com/en-us/articles/transitioning-from-intel-movidius-neural-compute-sdk-to-openvino-toolkit#inpage-nav-13
 
