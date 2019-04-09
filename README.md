@@ -1,6 +1,7 @@
 #Openvino & NCS 
 we posit that you have installed tensorflow & Openvino and ran the demo of them correctly!
 if not  there are some tips may help:
+
 tensotflow:
 	http://www.tensorflow.org/install 
 
@@ -15,6 +16,7 @@ more useful imformation you can get here:
 	https://docs.openvinotoolkit.org/latest/_inference_engine_ie_bridges_python_docs_api_overview.html
 
 #just 4 steps 
+
 # 1、run: python3 mnist_train.py	
 #it will create a .meta file 
 
@@ -27,11 +29,10 @@ more useful imformation you can get here:
 # 4、 cd ./ncs then run: python3 run.py 
 # if not thing wrong, you will get the FPS and the result of the 1.jpg/0.jpg
  
-# how to create a useful net by yourself,you can get something here:
-#is a example of the NCSDK1/2, and it work in Openvino! if you get more about this step, XD!
+# how to create a useful net by yourself,you can get something here:is a example of the NCSDK1/2, and it work in Openvino! if you get more about this step, XD!
 	https://movidius.github.io/ncsdk/tf_compile_guidance.html
 
-# a sample of yolov3		
+# example of yolov3		
 	https://github.com/PINTO0309/OpenVINO-YoloV3/blob/master/openvino_tiny-yolov3_test.py
 
 some solutions of errors:
