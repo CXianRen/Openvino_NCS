@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="x-input" out_port_id="0"/>
+		<IR id="0" name="x-input" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="layer1-conv1/BiasAdd" out_port_id="0"/>
+		<IR id="1" name="layer1-conv1/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="layer1-conv1/Relu" out_port_id="0"/>
+		<IR id="2" name="layer1-conv1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="layer2-pool1/MaxPool" out_port_id="0"/>
+		<IR id="3" name="layer2-pool1/MaxPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="layer3-conv2/BiasAdd" out_port_id="0"/>
+		<IR id="4" name="layer3-conv2/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="layer3-conv2/Relu" out_port_id="0"/>
+		<IR id="5" name="layer3-conv2/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="layer4-pool2/MaxPool" out_port_id="0"/>
+		<IR id="6" name="layer4-pool2/MaxPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="layer4-pool2/Reshape" out_port_id="0"/>
+		<IR id="7" name="layer4-pool2/Reshape" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="layer5-fc1/add" out_port_id="0"/>
+		<IR id="8" name="layer5-fc1/MatMul" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="layer5-fc1/Relu" out_port_id="0"/>
+		<IR id="9" name="layer5-fc1/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="layer6-fc2/add" out_port_id="0"/>
+		<IR id="10" name="layer6-fc2/MatMul" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="y-output" out_port_id="0"/>
+		<IR id="11" name="y-output" out_port_id="1"/>
+	</map>
+</mapping>

@@ -1,0 +1,2 @@
+model_checkpoint_path: "cnn-mnist_inference"
+all_model_checkpoint_paths: "cnn-mnist_inference"
