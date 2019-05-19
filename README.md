@@ -6,13 +6,15 @@ if not  there are some tips may help:
 tensotflow:
 	http://www.tensorflow.org/install 
 
+
 Openvino for linux:
 	https://docs.openvinotoolkit.org/latest/_docs_install_guides_installing_openvino_linux.html
 
 Openvino for raspberry:
 	https://software.intel.com/en-us/articles/OpenVINO-Install-RaspberryPI
 	https://software.intel.com/en-us/neural-compute-stick/get-started
-	
+the verson of Openvino in this project is 2018R5 and something were changed in 2019R1
+
 more useful imformation you can get here:
 	https://docs.openvinotoolkit.org/latest/_inference_engine_ie_bridges_python_docs_api_overview.html
 
